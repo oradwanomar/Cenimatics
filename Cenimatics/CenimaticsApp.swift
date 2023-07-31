@@ -11,7 +11,9 @@ import SwiftUI
 struct CenimaticsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                MoviesView()
+            }
         }
     }
 }

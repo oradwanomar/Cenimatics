@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		C70DF50C2A7567630059C2F8 /* CenimaticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DF50B2A7567630059C2F8 /* CenimaticsApp.swift */; };
-		C70DF50E2A7567630059C2F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DF50D2A7567630059C2F8 /* ContentView.swift */; };
+		C70DF50E2A7567630059C2F8 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DF50D2A7567630059C2F8 /* MoviesView.swift */; };
 		C70DF5102A7567650059C2F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70DF50F2A7567650059C2F8 /* Assets.xcassets */; };
 		C70DF5132A7567650059C2F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70DF5122A7567650059C2F8 /* Preview Assets.xcassets */; };
 		C70DF51D2A7567650059C2F8 /* CenimaticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DF51C2A7567650059C2F8 /* CenimaticsTests.swift */; };
 		C70DF5272A7567650059C2F8 /* CenimaticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DF5262A7567650059C2F8 /* CenimaticsUITests.swift */; };
 		C70DF5292A7567650059C2F8 /* CenimaticsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DF5282A7567650059C2F8 /* CenimaticsUITestsLaunchTests.swift */; };
+		C70DF5382A7568A60059C2F8 /* Netwroking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DF5372A7568A60059C2F8 /* Netwroking.swift */; };
+		C70DF53A2A7568AD0059C2F8 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DF5392A7568AD0059C2F8 /* Models.swift */; };
+		C70DF53D2A7591C40059C2F8 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DF53C2A7591C40059C2F8 /* MoviesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		C70DF5082A7567630059C2F8 /* Cenimatics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cenimatics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70DF50B2A7567630059C2F8 /* CenimaticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenimaticsApp.swift; sourceTree = "<group>"; };
-		C70DF50D2A7567630059C2F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C70DF50D2A7567630059C2F8 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
 		C70DF50F2A7567650059C2F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C70DF5122A7567650059C2F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C70DF5182A7567650059C2F8 /* CenimaticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CenimaticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		C70DF5222A7567650059C2F8 /* CenimaticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CenimaticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70DF5262A7567650059C2F8 /* CenimaticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenimaticsUITests.swift; sourceTree = "<group>"; };
 		C70DF5282A7567650059C2F8 /* CenimaticsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenimaticsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C70DF5372A7568A60059C2F8 /* Netwroking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netwroking.swift; sourceTree = "<group>"; };
+		C70DF5392A7568AD0059C2F8 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C70DF53C2A7591C40059C2F8 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,9 @@
 		C70DF50A2A7567630059C2F8 /* Cenimatics */ = {
 			isa = PBXGroup;
 			children = (
+				C70DF53B2A7590AF0059C2F8 /* Scenes */,
+				C70DF5362A7568760059C2F8 /* Network Layer */,
 				C70DF50B2A7567630059C2F8 /* CenimaticsApp.swift */,
-				C70DF50D2A7567630059C2F8 /* ContentView.swift */,
 				C70DF50F2A7567650059C2F8 /* Assets.xcassets */,
 				C70DF5112A7567650059C2F8 /* Preview Content */,
 			);
@@ -125,6 +132,24 @@
 				C70DF5282A7567650059C2F8 /* CenimaticsUITestsLaunchTests.swift */,
 			);
 			path = CenimaticsUITests;
+			sourceTree = "<group>";
+		};
+		C70DF5362A7568760059C2F8 /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				C70DF5372A7568A60059C2F8 /* Netwroking.swift */,
+				C70DF5392A7568AD0059C2F8 /* Models.swift */,
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+		C70DF53B2A7590AF0059C2F8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C70DF53C2A7591C40059C2F8 /* MoviesViewModel.swift */,
+				C70DF50D2A7567630059C2F8 /* MoviesView.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C70DF50E2A7567630059C2F8 /* ContentView.swift in Sources */,
+				C70DF50E2A7567630059C2F8 /* MoviesView.swift in Sources */,
+				C70DF5382A7568A60059C2F8 /* Netwroking.swift in Sources */,
 				C70DF50C2A7567630059C2F8 /* CenimaticsApp.swift in Sources */,
+				C70DF53A2A7568AD0059C2F8 /* Models.swift in Sources */,
+				C70DF53D2A7591C40059C2F8 /* MoviesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
