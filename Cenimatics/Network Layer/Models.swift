@@ -28,3 +28,27 @@ struct Movie: Decodable, Equatable, Identifiable {
 struct MovieResponse: Decodable {
     let results: [Movie]
 }
+
+//MARK: - Credits
+
+struct MovieCastMember: Identifiable, Equatable, Decodable {
+    let id: Int
+    let name: String
+    let character: String
+}
+
+struct MovieCreditsResponse: Decodable {
+    let cast: [MovieCastMember]
+}
+
+//MARK: - Reviews
+
+struct MovieReview: Identifiable, Equatable, Decodable {
+    let id: String
+    let author: String
+    let content: String
+}
+
+struct MovieReviewsResponse: Decodable {
+    let results: [MovieReview]
+}
