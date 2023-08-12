@@ -28,3 +28,8 @@ func searchMovies(for query: String) -> some Publisher<MovieResponse,Error> {
         .map(\.data)
         .decode(type: MovieResponse.self, decoder: jsonDecoder)
 }
+
+enum NetworkingError: Error {
+    case invalidURL
+}
+
